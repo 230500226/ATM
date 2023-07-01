@@ -1,8 +1,8 @@
 /************* AUTHOR INFO **************/
-// Name: [Author Name]
-// Student No.: [Student Number]
-// Course Title: [Course Title]
-// Date: [Current Date]
+// Name: Shahied Rustin
+// Student No.: 230500226
+// Course Title: Software Design 1 (SDN150S)
+// Date: 02/07/2023
 
 /************* HEADER FILES ***************/
 #include <stdio.h>
