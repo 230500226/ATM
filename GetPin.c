@@ -1,6 +1,15 @@
+/************* AUTHOR INFO **************/
+// Name: Shahied Rustin
+// Student No.: 230500226
+// Course Title: Software Design 1 (SDN150S)
+// Date: 01/07/2023
+
+/************* HEADER FILES ***************/
 #include <stdio.h>
 #include <conio.h>
 #include "functions.h"
+
+/******** FUNCTIONS (DECLARE/DEFINE) *********/
 
 // Function to get the user's PIN
 int getPin() {
