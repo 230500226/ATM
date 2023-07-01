@@ -1,7 +1,16 @@
+/************* AUTHOR INFO **************/
+// Name: Shahied Rustin
+// Student No.: 230500226
+// Course Title: Software Design 1 (SDN150S)
+// Date: 01/07/2023
+
+/************* HEADER FILES ***************/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include "functions.h"
+
+/******** FUNCTIONS (DECLARE/DEFINE) *********/
 
 // Function to withdraw money from the user's account
 void Withdraw(Users *user) {
@@ -9,7 +18,7 @@ void Withdraw(Users *user) {
     char confirm; // Variable to store the user's confirmation
 
     system("cls"); // Clears the console screen
-    Balance(user); //displays current balance before the user decides how much
+    Balance(user); // Displays current balance before the user decides how much
     printf("Enter the amount you would like to withdraw: ");
     scanf("%d", &amount); // Reads the withdrawal amount from the user
 

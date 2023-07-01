@@ -61,5 +61,5 @@
   },
   "code-runner.executorMap": {
     "c": "cd $dir ; if ($?) { gcc *.c -o $fileNameWithoutExt -lpdcurses -DNCURSES_STATIC} ; if ($?) { .\\$fileNameWithoutExt }"
-  },
+  }
 }

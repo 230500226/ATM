@@ -1,12 +1,19 @@
+/************* AUTHOR INFO **************/
+// Name: Shahied Rustin
+// Student No.: 230500226
+// Course Title: Software Design 1 (SDN150S)
+// Date: 01/07/2023
+/************* HEADER FILES ***************/
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 #include "functions.h"
 #include <conio.h>
-
+/************* GLOBAL VARIABLES ************/
 //username, pin, ballance
 Users user = {"card123", 1234, 25000};
-
+/******** FUNCTIONS (DECLARE/DEFINE) *********/
+/************* MAIN FUNCTION**************/
 int main() {
     char name[20];
     int pin;
